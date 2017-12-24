@@ -1,0 +1,22 @@
+body {
+    margin-top: 74px;
+}
+
+.tool {
+    display: inline-grid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.tool > img {
+    margin: auto;
+}
+
+.tool > h4, .tool > p {
+    text-align: center
+}
+
+
+.plugin-tools {
+    max-width: 250px;
+}
