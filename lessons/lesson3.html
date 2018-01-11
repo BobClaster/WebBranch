@@ -1,0 +1,103 @@
+<!--0678111025-->
+<!--0985040587-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Lesson 3</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bs/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+
+    <!-- Custom styles for this template -->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../all_lessons.html">Уроки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tools.html">Інструментарій</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Web Branch</h3>
+      </header>
+
+      <main role="main">
+        <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="lesson1.html">Урок 1 </a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="lesson2.html">Урок 2 </a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link active" href="lesson3.html">Урок 3 <span class="sr-only">(current)</span></a>
+            </li>&nbsp;&nbsp;
+        </ul>
+<!--        <hr>-->
+        <div class="jumbotron">
+<!--          <h3 class="display-4">Урок 1</h3>-->
+          <p class="lead">Сьогодні ми познайомимось з рядковими, блоковими та рядково-блоковими елементами, а також базовими правилами CSS</p>
+<!--          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+        </div>
+        
+        <div class="col-md-12">
+            <hr>
+            <h3>Рядкові, блокові і рядково-блокові елементи</h3>
+            В HTML всі елементи діляться на 3 типи:
+            <ul>
+                <li>Рядкові (<i>i, b, u, span</i>)</li>
+                <li>Блокові (<i>p, div</i>)</li>
+                <li>Рядково-блокові (<i>textarea, input</i>)</li>
+            </ul>
+            З попередніх занять ви вже напевне помітили різницю між деякими тегами, і що деякі з них переводять все в містиме на новий рядок, а деякі залишаються поряд із попередніми. Серед таких, що залишаються з попередніми (тобто рядкові), є теги форматування тексту <i>&lt;i&gt;&lt;/i&gt;, &lt;b&gt;&lt;/b&gt;, &lt;u&gt;&lt;/u&gt;</i>, а також новий для нас на сьогодні тег - <i>&lt;span&gt;&lt;/span&gt;</i>. Про нього ми поговоримо пізніше.
+            <br>
+            Серед блокових тегів ми вже зустрічали добре-знайомий нам тег <i>&lt;p&gt;&lt;/p&gt;</i>. Все вмістиме в себе він переносить на новий рядок. Сьогодні ми познайомимось ще з одним блоковим тегом, який несе в собі ключові можливості для верстки сайтів. Тег <i>&lt;div&gt;&lt;/div&gt;</i>
+            <br>
+            <h4>Властивості div</h4>
+            <ul>
+                <li>div — блоковий елемент, тому, якщо не задана ширина блоку, він розтягуватиметься на всю ширину вікна браузера;</li>
+                <li>div — якщо не задана висота блока - вона буде рівна висоті вмісту блока. Пустий блок div має висоту 0 px, тому не відображається на сторінці;</li>
+                <li>div не має оформлення. Щоб його побачити, потрібно задати його стилі в CSS.</li>
+                <li>div не несе в собі жодного смислового навантаження, він створений для того, щоб структурувати сайт і зробити розробку простішою</li>
+                <li>div — може містити в собі будь-яку кількість будь-яких вкладених елементів (може містити в собі інші div-блоки, текст, зображення, посилання і т.д.)</li>
+            </ul>
+            <br>
+            <h3>Вступ в CSS</h3>
+            Cascading Style Sheets (або скорочено CSS) — спеціальна мова, що використовується для опису зовнішнього вигляду сторінок, написаних мовами розмітки даних. Найчастіше CSS використовують для візуальної презентації сторінок, написаних HTML та XHTML, але формат CSS може застосовуватися до інших видів XML-документів.
+            <br>
+            <h4>Як правильно пишуться таблиці стилів?</h4>
+            <code>
+                .blocks { <br>
+                    &nbsp;&nbsp;&nbsp;width: 50px; <br>
+                    &nbsp;&nbsp;&nbsp;background: #C4C4C4; <br>
+                    &nbsp;&nbsp;&nbsp;margin: 10px; <br>
+                }
+            </code>
+            <center><a href="../all_lessons.html" class="btn btn-outline-success my-2 my-sm-0">Перейти до домашнього завдання</a></center>
+            <br>
+        </div>
+        
+      </main>
+
+      <footer class="footer">
+        <p>&copy; Author by Bogdan Korzhak</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>

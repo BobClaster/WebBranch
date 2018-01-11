@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Lesson 2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bs/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+
+    <!-- Custom styles for this template -->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../all_lessons.html">Уроки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tools.html">Інструментарій</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Web Branch</h3>
+      </header>
+
+      <main role="main">
+        <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="lesson1.html">Урок 1 </a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link active" href="lesson2.html">Урок 2 <span class="sr-only">(current)</span></a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link " href="lesson3.html">Урок 3 </a>
+            </li>&nbsp;&nbsp;
+        </ul>
+<!--        <hr>-->
+        <div class="jumbotron">
+<!--          <h3 class="display-4">Урок 1</h3>-->
+          <p class="lead">Сьогодні ми познайомимось з тегами a, img, p</p>
+<!--          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+        </div>
+        
+        <div class="col-md-12">
+            <hr>
+            <h3>Теги p, a, img</h3>
+                Тег &lt;p&gt;&lt;/p&gt; - тег абзацу. Текст поміщений в нього завжди починатиметься з нового рядка.
+                <br><br>
+                Наприклад: <br>
+                <code>
+                   
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptatum, incidunt neque beatae iste nulla odio ex dolorum esse doloremque repellat nesciunt nam cum aperiam delectus deleniti, explicabo laboriosam dolor?</p>
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam voluptatum, incidunt neque beatae iste nulla odio ex dolorum esse doloremque repellat nesciunt nam cum aperiam delectus deleniti, explicabo laboriosam dolor?&lt;/p&gt;
+                </code><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed itaque tempore in reiciendis nisi repudiandae, cum totam molestiae inventore asperiores aut numquam maiores, eum consequatur expedita quaerat quidem tenetur optio.</p>
+                <br>
+                Тег &lt;a&gt;&lt;/a&gt; - тег, призначений для створення посилань. Текст поміщений в нього стане посиланням. Має обов'язкові атрибути <i>href</i> або <i>name</i>. За допомогою нього можна створювати не тільки посилання на зовнішні сторінки, але і посилання по сторінці в якій знаходимось. Дана можливість називається якорем. Містить атрибути <b>href</b> (саме посилання), <b>name</b> (якір), <b>title</b> (випливаючий текст), <b>downloads</b> (за допомогою даного атрибута не буде відкриватись нова сторінка, а буде відбуватись завантаження) <br> Приклад написання: <br>
+                <code>
+                    &lt;a href="посилання" title="випливаючий текст" downloads&gt;Link&lt;/a&gt;
+                </code><br>
+                <br>
+                Тег &lt;img&gt; - тег зображення. Призначений для зображень типів GIF, PNG, JPG. Містить обов'язковий атрибут <i>source</i>, в який поміщається посилання на зображення.  Може містити необов'язкові атрибути <b>width</b> (ширина зображення, може задаватись в px, % та інших величинах)), <b>height</b> (висота), <b>alt</b> (альтернативний текст), <b>align</b> (вирівнювання), <b>border</b> (рамки, в px, % або інших величинах)
+                <br>
+                Наприклад: <br>
+                <code>
+                    &lt;img source="img/lesson2/example.jpg" width="400px" alt="тут має бути картинка" title="Емілія Кларк" &gt;
+                </code><br>
+                <center>    
+                    <img src="img/lesson2/example.jpg" width="400px" alt="тут має бути картинка" title="Емілія Кларк">
+                </center>
+                <br>
+                <h3>Загальні атрибути</h3>
+                Для кожного тега HTML є атрибути, які може використовувати тільки він ("href" в "a" наприклад), але є і такі, які можуть використовуватись будь-яким тегом, і називають їх загальними атрибутами. 
+                <br>
+                <b>id</b> - атрибут, за допомогою якого можна присвоювати елементу унікальний ідентифікатор<br>
+                <b>class</b> - атрибут, за допомогою якого можна підключати CSS класи до елемента <br>
+                <b>style</b> - атрибут, за допомогою якого можна писати стилі не використовуючи класи CSS <br>
+                <b>hidden</b> - за допомогою цього атрибута можна приховати елемент з видимості на сторінці <br>
+                <b>title</b> - цей атрибут ми вже використовували вище, за допомогою нього можна робити випливаючі підказки при наведенні на елмент курсора мишки <br>
+                <b>contenteditable</b> - за допомогою цього атрибути можна робити текст, що дозволить користувачам редагувати його (Приймає True або False в якості аргументу) <br>
+                <b>spellcheck</b> - цей атрибут вмикає перевірку тексту на правильність браузером <br>
+                <b>tabindex</b> - дозволяє вказувати порядок переходу з елемента до елемента за допомогою клавіші <i>tab</i><br>
+                <br>
+                <center><a href="../all_lessons.html" class="btn btn-outline-success my-2 my-sm-0">Перейти до домашнього завдання</a></center>
+                <br>
+        </div>
+        
+      </main>
+
+      <footer class="footer">
+        <p>&copy; Author by Bogdan Korzhak</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>

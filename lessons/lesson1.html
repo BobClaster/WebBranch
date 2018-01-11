@@ -1,0 +1,143 @@
+<!--0678111025-->
+<!--0985040587-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Lesson 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bs/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/jumbotron.css">
+
+    <!-- Custom styles for this template -->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../all_lessons.html">Уроки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tools.html">Інструментарій</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Web Branch</h3>
+      </header>
+
+      <main role="main">
+        <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="lesson1.html">Урок 1 <span class="sr-only">(current)</span></a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link " href="lesson2.html">Урок 2 </a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link " href="lesson3.html">Урок 3 </a>
+            </li>&nbsp;&nbsp;
+        </ul>
+<!--        <hr>-->
+        <div class="jumbotron">
+<!--          <h3 class="display-4">Урок 1</h3>-->
+          <p class="lead">Сьогодні ми ознайомимося з основами мови веб-розмітки HTML.</p>
+<!--          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+        </div>
+        
+        <div class="col-md-12">
+            <p>
+                <code class="language-js" data-lang="js">
+                   &lt;!DOCTYPE html&gt;<br/>&lt;html lang=&quot;en&quot;&gt;<br/>  &lt;head&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;<br/>    &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Document&lt;/title&gt;<br/>  &lt;/head&gt;<br/>  &lt;body&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Моя перша веб-сторінка&lt;/h1&gt;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Ура, я зробив свою першу веб-сторінку&lt;/p&gt;<br/>  &lt;/body&gt;<br/>&lt;/html&gt;
+                </code>
+            </p>
+            <hr>
+            <h3>Теги</h3>
+                Тег - це те, за допомогою чого браузер відрізняє веб-розмітку від звичайного тексту. 
+                Загальний синтаксис написання тегів: <br>
+                <code>
+                    &lt;тег атрибут1=&quot;значення&quot; атрибут2=&quot;значення2&quot;&gt;<br/>&lt;тег атрибут1=&quot;значення1&quot; атрибут2=&quot;значення2&quot;&gt;...&lt;/тег&gt;
+                </code><br>
+                Як ти напевне помітив, є два види тегів: одинарні і парні (або ще їх часто називають контейнерами). Одинарні теги використовуються самостійно, а парні можуть в себе включати додатковий текст або інші теги. <br>
+                Найпоширенішими тегами в HTML є парні теги. <br><br>Сьогодні ми вивчатимемо: <b>&lt;b&gt;...&lt;/b&gt;</b>,&nbsp; <i>&lt;i&gt;...&lt;/i&gt;</i>,&nbsp;
+                <u>&lt;u&gt;...&lt;/u&gt;</u>,&nbsp;
+                &lt;center&gt;...&lt;/center&gt;,&nbsp;
+                &lt;br&gt;, &nbsp; &lt;hr&gt;, а також теги заголовків
+                <br>
+                <br>
+                <h5>Тег b</h5>
+                <b>&lt;b&gt;...&lt;/b&gt;</b>,&nbsp;  - Парний тег, який робить текст жирним, наприклад: <br>
+                &lt;b&gt;Lorem ipsum dolor sit amet.&lt;/b&gt;: <b>Lorem ipsum dolor sit amet.</b>
+                <br>
+                <br>
+                <h5>Тег i</h5>
+                <i>&lt;i&gt;...&lt;/i&gt;</i>&nbsp;  - Парний тег, який робить текст курсивним, наприклад: <br>
+                &lt;i&gt;Lorem ipsum dolor sit amet.&lt;/i&gt;: <i>Lorem ipsum dolor sit amet.</i>
+                <br>
+                <br>
+                <h5>Тег u</h5>
+                <u>&lt;u&gt;...&lt;/u&gt;</u>&nbsp;  - Парний тег, який робить текст підкресленим, наприклад: <br>
+                &lt;u&gt;Lorem ipsum dolor sit amet.&lt;/u&gt;: <u>Lorem ipsum dolor sit amet.</u>
+                <br>
+                <br>
+                <h5>Тег center</h5>
+                &lt;center&gt;...&lt;/center&gt;&nbsp;  - Парний тег, який розміщує текст посередині сторінки, наприклад: <br>
+                &lt;center&gt;Lorem ipsum dolor sit amet.&lt;/center&gt;: <center>Lorem ipsum dolor sit amet.</center>
+                <br>
+                <br>
+                <h5>Тег center</h5>
+                &lt;center&gt;...&lt;/center&gt;&nbsp;  - Парний тег, який розміщує текст посередині сторінки, наприклад: <br>
+                &lt;center&gt;Lorem ipsum dolor sit amet.&lt;/center&gt;: <center>Lorem ipsum dolor sit amet.</center>
+                <br>
+                <br>
+                <h5>Теги заголовків</h5>
+                &lt;h1&gt;...&lt;/h1&gt;&nbsp;  - Парний тег, який робить текст заголовком першого рівня <br>
+                &lt;h2&gt;...&lt;/h2&gt;&nbsp;  - Парний тег, який робить текст заголовком другого рівня <br>
+                ...
+                <br>
+                &lt;h5&gt;...&lt;/h5&gt;&nbsp;  - Парний тег, який робить текст заголовком шостого рівня <br>
+                <br>
+                Наприклад: <br>
+                &lt;h1&gt;Lorem ipsum dolor sit amet.&lt;/h1&gt;: <h1>Lorem ipsum dolor sit amet.</h1>
+                &lt;h2&gt;Lorem ipsum dolor sit amet.&lt;/h2&gt;: <h2>Lorem ipsum dolor sit amet.</h2>
+                <br>
+                ...
+                <br>
+                &lt;h5&gt;Lorem ipsum dolor sit amet.&lt;/h5&gt;: <h5>Lorem ipsum dolor sit amet.</h5>
+                <hr>
+                <br>
+                <h4>Правила використання тегів:</h4>
+                <br>
+                <center>
+                    <img src="img/lesson1/tags.png" alt="">
+                    <i>Правильно</i>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="img/lesson1/tags_not_true.png" alt="">
+                    <i>Не правильно</i>
+                </center>
+                <br>
+                <center><a href="../all_lessons.html" class="btn btn-outline-success my-2 my-sm-0">Перейти до домашнього завдання</a></center>
+                <br>
+        </div>
+        
+      </main>
+
+      <footer class="footer">
+        <p>&copy; Author by Bogdan Korzhak</p>
+      </footer>
+
+    </div> <!-- /container -->
+  </body>
+</html>
